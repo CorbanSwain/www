@@ -1,0 +1,41 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_cs-defense-site";
+    src: url("./flaticon_cs-defense-site.woff2?3781e9170d874857d90d6c6ab76aa501") format("woff2"),
+url("./flaticon_cs-defense-site.woff?3781e9170d874857d90d6c6ab76aa501") format("woff"),
+url("./flaticon_cs-defense-site.eot?3781e9170d874857d90d6c6ab76aa501#iefix") format("embedded-opentype"),
+url("./flaticon_cs-defense-site.ttf?3781e9170d874857d90d6c6ab76aa501") format("truetype"),
+url("./flaticon_cs-defense-site.svg?3781e9170d874857d90d6c6ab76aa501#flaticon_cs-defense-site") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_cs-defense-site !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-party-popper:before {
+    content: "\f101";
+}
+.flaticon-mobile:before {
+    content: "\f102";
+}
+.flaticon-placeholder:before {
+    content: "\f103";
+}
+

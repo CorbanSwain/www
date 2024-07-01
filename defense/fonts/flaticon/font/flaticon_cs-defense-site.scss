@@ -1,0 +1,37 @@
+$flaticon_cs-defense-site-font: "flaticon_cs-defense-site";
+
+@font-face {
+    font-family: $flaticon_cs-defense-site-font;
+    src: url("./flaticon_cs-defense-site.woff2?3781e9170d874857d90d6c6ab76aa501") format("woff2"),
+url("./flaticon_cs-defense-site.woff?3781e9170d874857d90d6c6ab76aa501") format("woff"),
+url("./flaticon_cs-defense-site.eot?3781e9170d874857d90d6c6ab76aa501#iefix") format("embedded-opentype"),
+url("./flaticon_cs-defense-site.ttf?3781e9170d874857d90d6c6ab76aa501") format("truetype"),
+url("./flaticon_cs-defense-site.svg?3781e9170d874857d90d6c6ab76aa501#flaticon_cs-defense-site") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_cs-defense-site !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_cs-defense-site-map: (
+    "party-popper": "\f101",
+    "mobile": "\f102",
+    "placeholder": "\f103",
+);
+
+.flaticon-party-popper:before {
+    content: map-get($flaticon_cs-defense-site-map, "party-popper");
+}
+.flaticon-mobile:before {
+    content: map-get($flaticon_cs-defense-site-map, "mobile");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon_cs-defense-site-map, "placeholder");
+}

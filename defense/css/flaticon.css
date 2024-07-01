@@ -1,9 +1,3 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 04/01/2019 13:45
-  	*/
-
-
 @font-face {
   font-family: "Flaticon";
   src: url("../fonts/flaticon/font/Flaticon.eot");
@@ -34,13 +28,13 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
-.flaticon-placeholder:before { content: "\f100"; }
-.flaticon-world:before { content: "\f101"; }
-.flaticon-hotel:before { content: "\f102"; }
-.flaticon-cooking:before { content: "\f103"; }
-.flaticon-guest:before { content: "\f104"; }
-.flaticon-idea:before { content: "\f105"; }
-.flaticon-handshake:before { content: "\f106"; }
-.flaticon-chair:before { content: "\f107"; }
+.flaticon-party-popper:before {
+  content: "\f101";
+}
+.flaticon-mobile:before {
+  content: "\f102";
+}
+.flaticon-placeholder:before {
+  content: "\f103";
+}
